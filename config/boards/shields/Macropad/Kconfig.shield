@@ -1,2 +1,6 @@
-config SHIELD_MACROPAD
-    def_bool $(shields_list_contains, Macropad)
+if SHIELD_MACROPAD
+
+config ZMK_KEYBOARD_NAME
+    default "Macropad"
+
+endif
