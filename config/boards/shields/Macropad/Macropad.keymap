@@ -8,10 +8,10 @@
 
         default_layer {
             bindings = <
-                &kp C_VOLUME_UP         &kp KP_N2     &kp KP_N3     &kp KP_N4
-                &kp C_VOLUME_DOWN       &kp KP_N6     &kp KP_N7     &kp KP_N8
-                &kp KP_N9               &kp A         &kp B         &kp C  
-                &kp D                   &kp E         &kp F         &mo 1
+                &kp C_VOLUME_UP         &kp C_PREVIOUS     &kp C_PLAY_PAUSE     &kp C_NEXT
+                &kp C_VOLUME_DOWN       &kp C_MUTE         &kp KP_N7            &kp KP_N8
+                &kp KP_N9               &kp A              &kp B                &kp C  
+                &kp D                   &kp E              &kp F                &mo 1
             >;
         }; 
         
